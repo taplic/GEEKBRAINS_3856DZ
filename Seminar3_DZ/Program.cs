@@ -5,6 +5,7 @@
 12821 -> да
 23432 -> да
 */
+#nullable disable
 Console.WriteLine("Введите число: ");
 int number = int.Parse(Console.ReadLine());
 int num = Math.Abs(number);
@@ -33,7 +34,7 @@ A (3,6,8); B (2,1,-7), -> 15.84
 A (7,-5, 0); B (1,-1,9) -> 11.53
 */
 
-
+#nullable disable
 Console.WriteLine("Введите координату X1 первой точки: ");
 double numberX1 = double.Parse(Console.ReadLine());
 Console.WriteLine("Введите координату Y1 первой точки: ");
@@ -65,7 +66,7 @@ Console.WriteLine($"Расстояние между точками {resultSqr}")
 5 -> 1, 8, 27, 64, 125
 */
 
-
+#nullable disable
 Console.WriteLine("Введите число: ");
 int numberN = int.Parse(Console.ReadLine());
 int ind = 1;
